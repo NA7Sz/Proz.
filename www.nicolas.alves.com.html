@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=" viewport" content="width=device-widh" , initial-scale="1.0">
+    <title>Perfil Profissiona</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<section>
+    <header>
+        <h1 style="color: rgb(255, 255, 255); text-align: center;">ON-LINE</h1>
+        <nav>
+            <a href="#">Sobre Mim</a>
+            <a href="#">Experiencia</a>
+            <a href="#">Fale Comigo</a>
+        </nav>
+    </header>
+
+
+    <section class="cont">
+        <div class="perfil">
+            <img src="BOY.JPG" alt="Foto de Perfil">
+            <div class="info">
+
+            </div>
+        <div class="co">
+            <h3 style="color: rgb(0, 0, 0); text-align: center;">A nossa loja começou aqui,
+                no calçadão de São Miguel. Durante 5 anos dominamos esse lugar, sacola subindo e descendo com a nossa
+                marca,
+                depois de algum tempo não podiamos mais ficar aqui, precisariamos de um espaço melhor e maior para
+                atender a
+                demanda e necessidades dos nossos clientes. Assim inauguramos a OUTLET DO BOY. </h3>
+        </div>
+    </section>
+
+    <section class="cont">
+        <h1>Experiencia</h1>
+        <label for="vend">Vendedor (0 a 10):</label>
+        <input type="range" id="vend" name="vend" min="0" max="10">
+        <input type="submit">
+        </p>
+        <label for="pux"> Puxador (0 a 10):</label>
+        <input type="range" id="pux" name="pux" min="0" max="10">
+        <input type="submit">
+        </p>
+        <label for="estoq">Estoquista (0 a 10):</label>
+        <input type="range" id="estoq" name="estoq" min="0" max="10">
+
+        <input type="submit">
+        </form>
+    </section>
+    <h1>Fale Comigo</h1>
+    <section class="container">
+        
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxx-xxxx" required>
+
+                <label for="tipo-telefone">Tipo de Telefone:</label>
+                <select id="tipo-telefone" name="tipo-telefone" required>
+                    <option value="pessoal">Pessoal</option>
+                    <option value="fixo">Fixo</option>
+                </select>
+
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado" required>
+                    <option value="" disabled selected>Selecione seu estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <div class="buttons">
+                    <button type="submit" class="enviar">Enviar</button>
+                    <button type="reset" class="cancelar">Cancelar</button>
+                </div>
+                <section class="con">
+                        <img src="discord.jpge.jpg"/>
+                        <img src="whatsapp.jpeg"/>
+                        <img src="insta.jpg"/>
+                </section>
+            </form>
+    </section>
+    </body>
+    </html>
